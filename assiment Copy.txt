@@ -1,0 +1,512 @@
+today assigments
+1.45,5.6
+ans >#include<stdio.h>
+int main()//45+5.6
+
+{
+	int a=45;
+	float b=5.6;
+	float sum=a+b;
+	printf("%f",sum);
+	
+	
+	return 0;
+}
+++++++++++++++++++++++++++++++++++++
+
+#include<stdio.h>
+int main()//a=45,b=5.6
+{
+	int a,b;
+	printf("enetr the value :a");
+	scanf("%d",&a);
+		printf("enetr the value: b ");
+	scanf("%f",&b);
+	float result=a+b;
+	printf("addtiom of a and b%f :",result);
+	
+	return 0;
+}
+-------------------------------
+
+-------------------------------------------
+2. 5.6,,9.8
+#include<stdio.h>
+int main()//5.6,9.8
+
+{
+	float a=5.6,b=9.8;
+	float sum;
+	sum=a+b;
+	printf("%f",sum);
+	
+	return 0;
+}
+++++++++++++++++++++++++++++++
+user input
+#include<stdio.h>
+int main()//5.6,9.8
+
+{
+	float a,b;
+	printf("enetr the value:a");
+	scanf("%f",&a);
+	printf("enetr the value:b");
+	scanf("%f",&b);
+	float sum=a+b;
+	printf("%f",sum);
+	return 0;
+}
+----------------------------------------------------------------------
+subcarct
+1.4,2
+#include<stdio.h>
+int main()//5.6,9.8
+
+{
+	int a=4,b=2;
+	int sum;
+	sum=a-b;
+	printf("%d",sum);
+	return 0;
+}
++++++++++++++++++++++++++++++++
+user input
+#include<stdio.h>
+int main()//5.6,9.8
+
+{
+	int a,b;
+	printf("enetr the value:");
+	scanf("%d",&a);
+	printf("enetr the value:");
+	scanf("%d",&b);	
+	int sum;
+	sum=a-b;
+	printf("%d",sum);
+	return 0;
+}
+=============================================
+
+
+2.#include<stdio.h>
+int main()//23-7
+
+{
+	int a=23,b=7;
+	int sum;
+	sum=a-b;
+	printf("%d",sum);
+	
+	
+	return 0;
+}
+----------------------------------------
+user input
+#include<stdio.h>
+int main()//23-7
+
+{
+	int a,b;
+	printf("enter the value");
+	scanf("%d",&a);
+		printf("enter the value");
+	scanf("%d",&b);
+	int sum;
+	sum=a-b;
+	printf("%d",sum);
+	
+	
+	return 0;
+}
+----------------------------------------
+3.6.7 -5.4
+#include<stdio.h>
+int main()//6.7-5.4
+
+{
+	float a=6.7,b=5.4;
+	float sum;
+	sum=a-b;
+	printf("%f",sum);
+	
+	
+	return 0;
+
+=========================================
+userinput
+#include<stdio.h>
+int main()//6.7-5.4
+
+{
+	float a,b;
+	printf("enetr the value");
+	scanf("%f",&a);
+	printf("enetr the value");
+	scanf("%f",&b);
+	
+	float sum;
+	sum=a-b;
+	printf("%f",sum);
+	
+	
+	return 0;
+}
+------------------------------------------------
+multiply
+2.5.6,8.9
+#include<stdio.h>
+int main()//5.6,9.8
+
+{
+    float a=5.6,b=8.9;
+    float sum;
+    sum=a*b;
+    printf("%f",sum);
+	return 0;
+}
+========================================
+user input#include<stdio.h>
+int main()//5.6,9.8
+
+{
+    float a,b;
+    printf("enter  vlaue");
+    scanf("%f",&a);
+    printf("enter  vlaue");
+    scanf("%f",&b);
+    float sum;
+    sum=a*b;
+    printf("%f",sum);
+	return 0;
+}
+-----------------------------------------------------
+2.2.2.,6
+#include<stdio.h>
+int main()//5.6,9.8
+
+{
+	float a=2.6;
+	int b=6;
+	float sum;
+	sum=a*b;
+	printf("%f",sum);
+	return 0;
+}
+user input
+#include<stdio.h>
+int main()//2.2*6
+
+{
+	float a;
+	int b;
+	printf("enetr the value");
+	scanf("%f",&a);
+	printf("enetr the value");
+	scanf("%d",&b);
+	
+	float result;
+	result=a*b;
+	printf("%f",result);
+	
+	
+	return 0;
+}
+
+
+3.   4*8
+#include<stdio.h>
+int main()//2.2*6
+
+{
+	int a=4,b=8;
+	int result;
+	result=a*b;
+	printf("%d",result);
+	
+	return 0;
+------------------------------------
+user input
+#include<stdio.h>
+int main()//2.2*6
+
+{
+	int a,b;
+	printf("enetr the value");
+	scanf("%d",&a);
+	printf("enetr the value");
+	scanf("%d",&b);
+	
+	int result;
+	result=a*b;
+	printf("%d",result);
+	
+	return 0;
+}
+===================================================
+divide
+1.   56/2
+#include<stdio.h>
+int main()//2.2*6
+
+{
+	int a=56,b=2;
+	int result;
+	result=a/b;
+	printf("%d",result);
+	
+	return 0;
+}
+======================================================
+user input
+#include<stdio.h>
+int main()//2.2*6
+
+{
+	int a,b;
+	printf("enetr the value");
+	scanf("%d",&a);
+		printf("enetr the value");
+	scanf("%d",&b);
+	int result;
+	result=a/b;
+	printf("%d",result);
+	
+	return 0;
+}
+
+2.  4.5/2
+#include<stdio.h>
+int main()//2.2*6
+
+{
+	float a=4.5;
+	int b=5;
+	float sum;
+	sum=a/b;
+	printf("%f",sum);
+	
+	return 0;
+}
+==========
+user input\
+#include<stdio.h>
+int main()//2.2*6
+
+{
+	float a;
+	int b;
+	printf("enetr the value");
+	scanf("%f",&a);
+	printf("enetr the value");
+	scanf("%d",&b);
+	
+	float sum;
+	sum=a/b;
+	printf("%f",sum);
+	
+	return 0;
+}
++++++++++++++++++++++++++++++++++++++++++++++++
+modular
+1   6%5
+#include<stdio.h>
+int main()//2.2*6
+
+{
+	int a=6,b=5;
+	int result;
+	result=a%b;
+	printf("%d",result);
+	
+	return 0;
+}
+++++++++++++++++++++++++++
+user input
+#include<stdio.h>
+int main()//2.2*6
+
+{
+	int a,b;
+	printf("enetr the value");
+	scanf("%d",&a);
+		printf("enetr the value");
+	scanf("%d",&b);
+	int result;
+	result=a%b;
+	printf("%d",result);
+	
+	return 0;
+}
+===========================================
+      assiments
+1.67+3*2+(34-2*5)
+ans. #include<stdio.h>
+int main()//67+3*2+(34-2*5)
+
+{
+	int a=67;
+	int b=3;
+	int c=2;
+	int d=34;
+	int e=-2;
+	int f=5;
+	int sum;
+	sum=a+b*c+(d-e*f);
+	printf("%d",sum);	
+	return 0;
+}
+==============================
+user input
+#include<stdio.h>
+int main()//67+3*2+(34-2*5)
+
+{
+   int a,b,c,d,e,f;
+   printf("enetr the value :a");
+   scanf("%d",&a);	
+    printf("enetr the value :b");
+   scanf("%d",&b);
+    printf("enetr the value :c");
+   scanf("%d",&c);		
+    printf("enetr the value :d");
+   scanf("%d",&d);
+    printf("enetr the value :e");
+   scanf("%d",&e);		
+    printf("enetr the value :f");
+   scanf("%d",&f);	
+   int sum=a+b*c+d-e*f;
+   printf("%d",sum);
+	return 0;
+}
+--------------------------------------------
+2.45+(23*2-9)/34
+#include<stdio.h>
+int main()//45+(23*2-9)/34
+
+{
+	int a=45,b=23,c=2,d=9,e=34;
+	int result;
+	result=a+b*c-d/e;
+	printf("%d",result);
+  
+	return 0;
+}
++++++++++++++++++++++++++++++++++++++++++++++++
+user input
+#include<stdio.h>
+int main()//45+(23*2-9)/34
+
+{
+	int a,b,c,d,e;
+	printf("enetr value:");
+	scanf("%d",&a);
+		printf("enetr value:b");
+	scanf("%d",&b);
+		printf("enetr value: c");
+	scanf("%d",&c);
+		printf("enetr value: d");
+	scanf("%d",&d);
+		printf("enetr value: e");
+	scanf("%d",&e);
+	int sum=a+b*c-d/e;
+	printf("%d",sum);
+	return 0;
+}
+==============================================
+3.2+34*12-(34)
+#include<stdio.h>
+int main()//2+34*12-(34)
+
+{
+	int a=2,b=34,c=12,d=34;
+	int result;
+	result=a+b*c-d;
+	printf("%d",result);
+	
+	return 0;
+}
+.==============================
+user input
+#include<stdio.h>
+int main()//2+34*12-(34)
+
+{
+	int a,b,c,d;
+	printf("enetr the value");
+	scanf("%d",&a);
+	printf("enetr the value");
+	scanf("%d",&b);
+	printf("enetr the value");
+	scanf("%d",&c);
+	printf("enetr the value");
+	scanf("%d",&d);
+	int sum=a+b*c-d;
+	printf("%d",sum);
+	
+	return 0;
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+4.245-(56*2)+6
+#include<stdio.h>
+int main()//245-(56*2)+6
+
+{
+	int a=245,b=56,c=2,d=6;
+	int sum;
+	sum=a-b*c+6;
+	printf("%d",sum);
+	return 0;
+}
+==============================
+user input
+#include<stdio.h>
+int main()//245-(56*2)+6
+
+{
+	int a,b,c,d;
+	printf("enter the value of a: ");
+	scanf("%d",&a);
+		printf("enter the value of b: ");
+	scanf("%d",&b);
+		printf("enter the value of c: ");
+	scanf("%d",&c);
+		printf("enter the value of d: ");
+	scanf("%d",&d);
+	int sum=a-b*c+6;
+	printf(" the number of sum %d",sum);
+	return 0;
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+4.    2*4+98 -45
+#include<stdio.h>
+int main()//2*4+98-45
+
+{
+	int a=2,b=4,c=98,d=45;
+	int result;
+	result=a*b+c-d;
+	printf("%d",result);
+	
+	return 0;
+}
+=======================================================
+user intput
+#include<stdio.h>
+int main()//2*4+98-45
+
+{
+	int a,b,c,d;
+	printf("enetr the number");
+	scanf("%d",&a);
+	printf("enetr the number");
+	scanf("%d",&b);
+	printf("enetr the number");
+	scanf("%d",&c);
+	printf("enetr the number");
+	scanf("%d",&d);
+	int sum=a*b+c-d;
+	printf("sum of all umber : %d",sum);
+	
+	return 0;
+}

@@ -1,0 +1,268 @@
+assimernt 18 july
+number swap
+#include<stdio.h>
+int main()
+{
+	int a=20,b=10;
+	printf("the value of a is %d\n",a);
+	printf("the value of b is%d\n",b);
+	a=a+b;//a=20+10=30
+	b=a-b;//b=30-10=20
+	a=a-b;//a=20-10=10
+	printf(" the value of a %d\n",a);
+	printf("the value of b %d",b);
+	return 0;
+}
+======================================================
+method 2.. #include<stdio.h>
+int main()
+{
+	int a=20,b=10;
+	int c;
+	printf("the value of a is %d\n",a);
+	printf("the value of b is%d\n",b);
+	c=a;//a=0 c=20
+	a=b;//a=10 b=0
+	b=c;// b=20 c=0
+	printf(" the value of a %d\n",a);
+	printf("the value of b %d",b);
+	return 0;
+}
+-----------------------------------------------------------------
+control statements
+if esle
+#include<stdio.h>
+int main()
+{
+	int num;
+	printf("entr the value");
+	scanf("%d",&num);
+	if(num>10)
+	{
+		printf("this is grathr then");
+	}
+	else{
+		printf("this numbe is less then");
+	}
+	return 0;
+}
+========================================================
+vaild for vote after 18
+#include<stdio.h>
+int main()
+{
+	int age;
+	printf("entr your age");
+	scanf("%d",&age);
+	if(age>=18)
+	{
+		printf("vaild for vote");
+	}
+	else {
+		printf("not vaild for vote");
+	}
+	return 0;
+}
+--------------------------------------------------------------
+2.a>b
+#include<stdio.h>
+int main()
+{
+	int a,b;
+	printf("enetr the number a and b");
+	scanf("%d %d",&a,&b);
+	if(a>b)
+	{
+		printf("a is grather");
+		
+	}
+	else{
+		printf("b is garther");
+	}
+
+		return 0;
+}
+=====================================================
+3.even and odd number
+#include<stdio.h>
+int main()
+{
+	int a;
+	printf("enter the num");
+	scanf("%d",&a);
+	if(a%2==0)
+	{
+		printf("this num is even");
+	}
+	else{
+		printf("this number is odd");
+	}
+
+		return 0;
+}
+================================
+is conditoon
+1.a>b a>c
+#include<stdio.h>
+int main()
+{
+	int a,b,c;
+	printf("enetr the number a and b and c");
+	scanf("%d %d %d",&a,&b,&c);
+	if(a>b && a>c)
+	{
+		printf("a is grether then");
+		
+	}
+	else{
+		printf("a is not grather then");
+	}
+
+		return 0;
+}
+===============================================
+3.  5subject name sbke marks 40 se jada hone cahitye to ptint;pss
+ni to else fail
+#include<stdio.h>
+int main()
+{
+	int h,e,m,s;
+	printf("enetr the marks");
+	scanf("%d %d %d %d",&h,&e,&m,&s);
+	if(h>=40 && e>=40 && m>=40 && s>=
+	40)
+		{
+			printf("pss");
+		}
+		else{
+			printf("faild");
+		}
+
+		return 0;
+}
+==============================================
+2.	5 its is equal
+#include<stdio.h>
+int main()
+{
+	int a;
+	printf("enetr the numbr");
+	scanf("%d",&a);
+	if(a==5)
+	{
+		printf("five is equal");
+	}
+	else{
+		printf("this is not equal");
+	}
+
+		return 0;
+}
+=====================================
+two number 7 and 3 divisble
+#include<stdio.h>
+int main()
+{
+	int a;
+	printf("enetr the number");
+	scanf("%d",&a);
+	if(a%7==0 || a%3==0)
+	{
+		printf("divisible");
+	}
+	else{
+		printf("not disivle");
+	}
+		return 0;
+}
+===========================================
+a=5 b=7 c=11
+#include<stdio.h>
+int main()
+{
+	int a;
+	printf("enetr the number");
+	scanf("%d",&a);
+	if(a==5 || a==7 || a==11)
+	{
+		printf("ypu are vaild");
+		
+	}
+	else {
+		printf("you are not vaild");
+	
+	}
+		return 0;
+}
+++++++++++++++++++++++++++++++++++
+questiomn
+vailbe and constant
+#include<stdio.h>
+int main()
+{
+	char c;
+	printf("enetr the value");
+	scanf("%d",&c);
+	if(c=='a' && c=='e'&&c=='i'&&c=='o'&&c=='u')
+	{
+		printf("this number is vovvle");
+		
+	}
+	else{
+		printf("this  number is contant");
+	}
+	return 0;
+}
+==========================================================
+leap year
+#include<stdio.h>
+int main()
+{
+	int year;
+	printf("enter a year");
+	scanf("%d",&year);
+	if(year%4==0)
+	{
+		printf("this year is leap year");
+	}
+	else{
+		printf("this is not leap");
+		}
+		return 0;
+}
+==========================================
+ a,f,g,h
+
+#include<stdio.h>
+int main()
+{
+	char c;
+	printf("enetr thhe value");
+	scanf("%'c'",&c);
+	if(c=='a' || c=='f'||c=='g'||c=='h')
+	{
+		printf("this  is cvv");
+		
+	}
+	else{
+		printf("ths is opo");
+	}
+		return 0;
+}
+===========================================================
+f = female  nhi to else main male
+#include<stdio.h>
+int main()
+{
+	char gender;
+	printf("enter your gender");
+	scanf("%c",&gender);
+	if(gender=='f')
+	{
+		printf("female\n");
+	}
+	else{
+		printf("male");
+	}
+		return 0;
+}
