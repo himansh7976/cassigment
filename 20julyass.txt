@@ -123,6 +123,138 @@ int main()
 	printf("%d",f);
 	return 0;
 }
+================================
+extra question
+1.
+1to10 even number
+
+#include<stdio.h>
+int main()
+{
+	int a=1;
+	while(a<=100)
+	{
+	  if(a%2==0)
+	  {
+	  	printf("%d\n",a);
+	  }
+	  a++;
+	}
+	
+	return 0;
+}
+=========================================
+ 100 to 1 even numbr
+
+#include<stdio.h>
+int main()
+{
+	int a=100;
+	while(a>=1)
+	{
+		if(a%2==0)
+		{
+			printf("%d\n",a);
+		}
+		a--;
+	}
+	return 0;
+}
+=====================
+50to 100 even number
+#include<stdio.h>
+int main()
+{
+	int a=50;
+	while(a<=100)
+	{
+		if(a%2==0)
+		{
+			printf("%d\n",a);
+		}
+		a++;
+	}
+		return 0;
+}
+==================================
+
+2 table
+#include<stdio.h>
+int main()
+{
+	int a=1;
+	while(a<=10)
+	{
+		printf("%d",a*2);
+		a++;
+	}
+		return 0;
+}
+============================
+3 tbale
+#include<stdio.h>
+int main()
+{
+	int a=1;
+	while(a<=10)
+	{
+		printf("%d",a*2);
+		a++;
+	}
+		return 0;
+}
+=====================
+10table
+#include<stdio.h>
+int main()
+{
+	int a=1;
+	while(a<=10)
+	{
+		printf("%d\n",a*10);
+		a++;
+	}
+	
+		return 0;
+}
+=============================
+5table
+#include<stdio.h>
+int main()
+{
+	int a=1;
+	while(a<=10)
+	{
+		printf("%d\n",a*5);
+		a++;
+	}
+	
+		return 0;
+}
+======================
+rendom number 2to 100
+print even number 
+#include<stdio.h>
+int main()
+{
+	int a,b;
+	printf("entr numbern");
+	scanf("%d",&a);
+		printf("entr number");
+	scanf("%d",&b);
+	while(a<=b)
+	{
+	
+	
+	if(a%2==0)
+	{
+		printf("%d\n",a);
+	}
+	a++;
+}
+		return 0;
+}
+======================================
 ==================
 user input
 
