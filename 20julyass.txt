@@ -1,0 +1,129 @@
+#include<stdio.h>
+int main()
+{
+	int num;
+	printf("enetr any value");
+	scanf("%d",&num);
+	int rem,sum=0;
+	while(num>0)
+	{
+		rem=num%10;
+		sum=sum*10+rem;
+		num=num/10;
+	}
+	printf("the resver value%d",sum);
+	return 0;
+}
+============================================
+pallindorn numbber 15451
+#include<stdio.h>
+int main()
+{
+	int num=15451,rem,sum=0;
+	int temp;
+	temp=num;
+	while(num>0)
+	{
+		rem=num%10;
+		sum=sum*10+rem;
+		num=num/10;
+	}
+	if(temp==sum)
+	{
+		printf("this number is pallindron");
+	}
+	else{
+		printf("this number is not pallindron");
+	}
+	return 0;
+}
+========================================================
+3..   542
+#include<stdio.h>
+int main()
+{
+	int num =542,rem,sum=0;
+	int temp;
+	temp=num;
+	while(num>0)
+	{
+		rem=num%10;
+		sum=sum*10+rem;
+		num=num/10;
+	}
+	if(temp==sum)
+	{
+		printf("this pallidron ");
+	}
+	else {
+		printf("this number is not pallidron");
+	}
+	return 0;
+}
+=================================================
+armstrong
+152.
+#include<stdio.h>
+int main()
+{
+	int num =152,rem,sum=0;
+	int temp;
+	temp=num;
+	while(num>0)
+	{
+		rem=num%10;
+		sum=sum+rem*rem*rem;
+		num=num/10;
+	}
+	if(temp==sum)
+	{
+		printf("this pallidron ");
+	}
+	else {
+		printf("this number is not pallidron");
+	}
+	return 0;
+}
+
+===============================================
+152
+#include<stdio.h>
+int main()
+{
+	int num =151,rem,sum=0;
+	int temp;
+	temp=num;
+	while(num>0)
+	{
+		rem=num%10;
+		sum=sum+rem*rem*rem;
+		num=num/10;
+	}
+	if(temp==sum)
+	{
+		printf("this pallidron ");
+	}
+	else {
+		printf("this number is not pallidron");
+	}
+	return 0;
+}
+======================================
+factorial 
+3 number;
+#include<stdio.h>
+int main()
+{
+	int a=3,f=1;
+	while(a>=1)
+	{
+		f=f*a;
+		a--;
+	}
+	printf("%d",f);
+	return 0;
+}
+==================
+user input
+
+
