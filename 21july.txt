@@ -1,0 +1,108 @@
+21 july home work
+1 to 100 number 
+//1----100
+#include<stdio.h>
+int main()
+{
+	int a=1;
+	while(a<=100)
+	{
+	 
+	 	printf("%d\n",a);
+	 	a++;
+	}
+	return 0;
+}
+================================
+100 to 1
+//1----100
+#include<stdio.h>
+int main()
+{
+	int a,b;
+	printf("enetr the value");
+	scanf("%d",&a);
+	printf("enetr the value");
+	scanf("%d",&b);
+	while(a>b)
+	{
+		printf("%d",a);
+		a--;
+	}
+	return 0;
+}
+=================================
+50to 100
+//1----100
+#include<stdio.h>
+int main()
+{
+	int a=50;
+	while(a<=100)
+	{
+		printf("%d\n",a);
+		a++;
+	}
+	return 0;
+}
+==============================================
+table of 2
+//765 digit 3  56789 digit 5
+#include<stdio.h>
+int main()
+{
+	int a=1;
+	while(a<=10)
+	{
+		printf("%d\n",a*2);
+		a++;
+	}
+	return 0;
+}
+======================================
+table 4
+//765 digit 3  56789 digit 5
+#include<stdio.h>
+int main()
+{
+	int a=1;
+	while(a<=10)
+	{
+		printf("%d\n",a*4);
+		a++;
+	}
+	return 0;
+}
+===========================
+5 tbale
+//765 digit 3  56789 digit 5
+#include<stdio.h>
+int main()
+{
+	int a=1;
+	while(a<=10)
+	{
+		printf("%d\n",a*5);
+		a++;
+	}
+	return 0;
+}
+=====================================
+difference between two number
+//765 digit 3  56789 digit 5
+#include<stdio.h>
+int main()
+{
+	int a,b;
+	printf("enter the numbr");
+	scanf("%d",&a);
+		printf("enter the numbr");
+	scanf("%d",&b);
+	while(a<=b)
+	{
+		printf("%d",a);
+		a++;
+	}
+	return 0;
+}
+=============================================
