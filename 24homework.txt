@@ -1,0 +1,448 @@
+a nd b odd numbert
+1.
+
+#include<stdio.h>
+int main()
+{
+	int a,b;
+	printf("enetr the value of a and b");
+	scanf("%d %d",&a,&b);
+	while(a<=b)
+	{
+		if(a%2!=0)
+		{
+			printf("%d",a);
+		}
+		a++;
+	}
+	return 0;
+}
+=======================
+5and 11 divide 
+
+#include<stdio.h>
+int main()
+{
+	int num=1;
+	printf("number divide by 1 and 100 divisvile by 5 or 11 \n");
+	while(num<=100)
+	{
+		if(5==0 ||11==0)
+		{
+			printf("%d",num);
+		}
+		num++;
+	}
+	printf("\n");
+	return 0;
+}
+========================
+3.
+#include<stdio.h>
+int main()
+{
+	int num=1;
+	printf("number divide by 1 and 100 divisvile by 5 or 11 \n");
+	while(num<=100)
+	{
+		if(7==0 ||3==0)
+		{
+			printf("%d",num);
+		}
+		num++;
+	}
+	printf("\n");
+	return 0;
+}
+========================
+4.
+50to 100 even
+
+#include<stdio.h>
+int main()
+{
+	int a=50;
+	while(a<=100)
+	{
+		if(a%2==0)
+		{
+			printf("%d",a);
+		}
+		a++;
+	}
+	return 0;
+}
+==============================
+100 to 30
+
+#include<stdio.h>
+int main()
+{
+	int a=100;
+	while(a>=30)
+	{
+		if(a%2!=0)
+		{
+			printf("%d\n",a);
+		}
+		a--;
+	}
+	return 0;
+}
+=================================
+4.
+
+#include<stdio.h>
+int main()
+{
+		int a,b;
+		printf("enetr the value a and b");
+		scanf("%d %d",&a,&b);
+		for(a;a<=b;a++)
+		{
+			if(a%2!=0)
+			{
+				printf("%d",a,b);
+			}
+		}
+	return 0;
+}
+=========================
+5.
+
+#include<stdio.h>
+int main()
+{
+		int num=1;
+		printf("number between 1to 100 divide by 5or 11\n");
+		for(num=1;num<=100;num++)
+		{
+			if(num%7==0||num%3==0)
+			{
+				printf("%d",num);
+			}
+			num++;
+		}
+	return 0;
+}
+=====================================
+50to 100 even for nloop
+
+#include<stdio.h>
+int main()
+{
+	int a=50;
+	for(a=50;a<=100;a++)
+	{
+		if(a%2==0)
+		
+		{
+			printf("%d",a);
+		}
+		
+	}
+	return 0;
+}
+=================================
+100 to 30 odd for loop
+
+#include<stdio.h>
+int main()
+{
+	int a=100;
+	for(a=100;a>=50;a--)
+	{
+		if(a%2!=0)
+		{
+			printf("%d",a);
+		}
+	}
+	return 0;
+}
+===================================
+
+#include<stdio.h>
+int main()
+{
+	int n=1;
+	for(int i=1;i<=4;i++)
+	{
+		for(int j=1;j<=4;j++)
+		{
+			printf("%4d",j);
+		}
+		n++;
+		printf("\n";)
+	}
+	return 0;
+}
+========================
+
+#include<stdio.h>
+int main()
+{
+	int n=1;
+	for(int i=1;i<=4;i++)
+	{
+		for(int j=1;j<=4;j++)
+		{
+			printf("%4d",i*i);
+		}
+		n++;
+		printf("\n";)
+	}
+	return 0;
+}
+===================
+
+#include<stdio.h>
+int main()
+{
+	int n=1;
+	for(int i=1;i<=4;i++)
+	{
+		for(int j=1;j<=4;j++)
+		{
+			printf("%4d",j*j);
+		}
+		n++;
+		printf("\n";)
+	}
+	return 0;
+}
+==========================
+
+#include<stdio.h>
+int main()
+{
+	int n=1;
+	for(int i=1;i<=4;i--)
+	{
+		for(int j=1;j<=4;j--)
+		{
+			printf("%4d",);
+		}
+		n++;
+		printf("\n";)
+	}
+	return 0;
+}
+=========================
+	
+	#include<stdio.h>
+	int main()
+	{
+		int n=1;
+		for(int i=1;i<=4;i--)
+		{
+			for(int j=5;j>=1;j--)
+			{
+				printf("%4d",j);
+			}
+			n++;
+			printf("\n";)
+		}
+		return 0;
+	}
+===============================
+
+
+	
+	#include<stdio.h>
+	int main()
+	{
+		int n=1;
+		for(int i=1;i<=3;i--)
+		{
+			for(int j=0;j<=1;j++)
+			{
+				printf("%4d",n);
+			}
+			n++;
+			printf("\n";)
+		}
+		return 0;
+	}
+=======================
+#include<stdio.h>
+int main()
+{
+	int n=1;
+	int i,j;
+	for(int i=1;i<=4;i++)
+	{
+		for(j=1;j<=4;j++)
+		{
+			printf("%d",j);
+			
+		}
+		n++;
+		printf("\n");
+	}
+	return 0;
+}
+====================
+#include<stdio.h>
+int main()
+{
+    int n;
+    int i,j;
+    for( int i=1;i<=4;i++)
+    {
+    for(j=1;j<=4;j++)
+    {
+        printf("%d",i);
+        n++;
+    }
+    printf("\n");
+    }
+	return 0;
+}
+============
+#include<stdio.h>
+int main()
+{
+    int n;
+    int i,j;
+    for( int i=1;i<=5;i++)
+    {
+    for(j=1;j<=4;j++)
+    {
+        printf("%d",n);
+        n++;
+    }
+    printf("\n");
+    }
+	return 0;
+}
+==============================#include<stdio.h>
+int main()
+{
+	int i,s,j;
+	for(i=1;j<=3;i++)
+	{
+		for(s=2;s>=i;s--)
+		{
+			printf("#");
+		}
+		for(j=1;j<=i;j++)
+		{
+			printf("*");
+		}
+		printf("\n");
+	}
+	return 0;
+}
+============================
+
+#include<stdio.h>
+int main()
+{
+	int i,s,j;
+	for(i=1;i<=4;i++)
+	{
+		for(s=1;s<=i;s++)
+		{
+			printf(" ");
+		}
+		for(j=4;j>=i;j--)
+		{
+			printf("*");
+		}
+		printf("\n");
+	}
+	return 0;
+}
+========================================
+    *
+   * *
+  * * *
+ * * * *
+
+#include<stdio.h>
+int main()
+{
+	int i,s,j;
+	for(i=1;i<=4;i++)
+	{
+		for(s=3;s>=i;s--)
+		{
+			printf(" ");
+		}
+		for(j=1;j<=i;j++)
+		{
+			printf(" *");
+		}
+		printf("\n");
+	}
+	return 0;
+}
+=================
+   *
+  * *
+ * * *
+  * *
+   *
+
+   #include<stdio.h>
+int main()
+{
+	int i,s,j;
+	for(i=1;i<=3;i++)
+	{
+		for(s=2;s>=i;s--)
+		{
+			printf(" ");
+		}
+		for(j=1;j<=i;j++)
+		{
+			printf(" *");
+		}
+		printf("\n");
+	}
+	for(i=1;i<=2;i++)
+	{
+		for(s=1;s<=i;s++)
+		{
+			printf(" ");
+		}
+		for(j=2;j>=i;j--)
+		{
+			printf(" *");
+		}
+		printf("\n");
+	}
+	return 0;
+}
+=======================
+#include<stdio.h>
+int main()
+{
+	int i,s,j;
+	for(i=1;i<=3;i++)
+	{
+		for(s=2;s>=i;s--)
+		{
+			printf(" ");
+		}
+		for(j=1;j<=i;j++)
+		{
+			printf("* ");
+		}
+		printf("\n");
+	}
+	for(i=1;i<=3;i++)
+	{
+		for(s=1;s<=i;s++)
+		{
+			printf(" ");
+		}
+		for(j=3;j>=i;j--)
+		{
+			printf(" *");
+		}
+		printf("\n");
+	}
+	return 0;
+}
+=============================
