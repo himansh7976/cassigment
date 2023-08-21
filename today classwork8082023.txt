@@ -1,0 +1,36 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int number =5;
+	int* ptr1=&number;
+	int** ptr=&ptr1;
+	cout<<*ptr<<"\n";
+	cout<<**ptr;
+	return 0;
+}
+===============================
+#include<iostream>
+using namespace std;
+int main()
+{
+	int add(int x,int y);
+	{
+		return x+y;
+	}
+	int sub(int a,int b)
+	{
+		return a-b;
+	}
+	int main()
+	{
+		int (*operation)(int a,int b)
+		opreation add;
+		cout<<"add"<<opreatioin(3,5)<<endl;
+		operation sub;
+		cout<<"sub"<<operation(4,8)
+	}
+}
+===============================================
+
+

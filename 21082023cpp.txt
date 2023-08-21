@@ -1,0 +1,56 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int result;
+	result=((((3+4)*2)/2)-5);
+	cout<<"result"<<result;
+	
+}
+=============================================
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b,c;
+	cout<<"enetr the value of a and b";
+	cin>>a>>b;
+	c=a%b;
+	cout<<c;
+	
+}
+
+========================================
+#include<iostream>
+using namespace std;
+int main()
+{
+	float base,height,area;
+	cin>>base>>height;
+	area=0.5*base*height;
+	cout<<area<<area;
+}
+
+====================================
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b;
+	cout<<"enter the value a and b";
+	cin>>a>>b;
+	int c;
+	c=a*a+b*b;
+	cout<<c;
+}
+
+==================================
+#include<iostream>
+using namespace std;
+int main()
+{
+	long a;
+	cin>>a;
+	cout<<"enetee the value of a"<<a;
+}
+========================
