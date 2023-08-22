@@ -1,0 +1,64 @@
+calaes o freanite
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	float c,f;
+	cout<<"enetr the value of c:";
+	cin>>c;
+	f=((c*(9/5))+32);
+	cout<<"the value of f:"<<f;
+	
+
+}
+==================================================
+ area of squre
+#include<iostream>
+using namespace std;
+int main()
+{
+	float height,base,area;
+	cout<<"entr the value ofbase height :\n";
+	cin>>base>>height;
+	area=base*height;
+	cout<<"area of "<<area;
+	
+
+}======================
+surface area 
+#include<iostream>
+#include<cmath>
+#include<math.h>
+using namespace std;
+int main()
+{
+	const float pi=3.14159;
+	float radius,sa;
+	cout<<"enter the value for radius and surface";
+	cin>>radius;
+	sa= 4* pi* pow(radius,2);
+	cout<<"surface area:"<<sa;
+	
+
+}
+======================================
+
+area of romhbus
+//area of rohmbus using daigonal
+#include<iostream>
+#include<cmath>
+#include<math.h>
+using namespace std;
+int main()
+{
+	float d1,d2,area;
+	cout<<"enetr the value for d1 and d2:\n";
+	cin>>d1>>d2;
+	area=(d1*d2)/2;
+	cout<<"area of rohbus"<<area;
+	
+	
+
+}
+===============================================
