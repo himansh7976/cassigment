@@ -1,0 +1,94 @@
+vowal and consonant
+#include<iostream>
+using namespace std;
+int main()
+{
+	char ch;
+	cout<<"enetr the value ch";
+	cin>>ch;
+	if(ch=='a' || ch=='e' || ch=='i'||ch=='o'||ch=='u')
+	{
+		cout<<"this is vowal";
+	}
+	else{
+		cout<<"consotant";
+	}
+	
+
+	
+	
+	
+
+}
+==========================================
+even odd
+//if else quetsion
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a;
+	cout<<"enetr the value of a";
+	cin>>a;
+	if(a%2==0)
+	{
+		cout<<"this nmber is even";
+	}
+	esle
+	{
+		cout<<"this number is odd";
+	}
+	
+	
+	
+
+}
+==========================
+
+positive and negitive number
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a;
+	cout<<"enter the number:";
+	cin>>a;
+	if(a>0)
+	{
+		cout<<"this number is positive";
+		}	
+		 else if(a<0)
+	{
+		cout<<"this is neg";
+	}
+	
+	else{
+		cout<<"this zero";
+	}
+	
+
+}
+=========================================================
+
+largeest number
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b,c,max;
+	cout<<"enter the number a and b and c:";
+	cin>>a>>b>>c;
+	if(a>b &&a>c)
+	{
+		cout<<a<<"a is max";
+	}
+	else if (b>a&&b>c)
+	{
+		cout<<"b is max";
+	}
+	else if(c>a&&c>b)
+	{
+		cout<<"c is max";
+	}
+	
+	}
