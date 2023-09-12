@@ -1,0 +1,177 @@
+basic questions of functions
+
+1.Write a program to print the sum of two numbers entered by user by defining your
+own function.
+
+
+ #include<iostream>
+
+double add(int a,int b)
+{
+   double sum=a+b;
+    return sum;
+}
+int main()
+{
+    double a,b;
+   cout<<"entr the value of a:";
+   cin>>a;
+   cout<<"enetr the value of b:";
+   cin>>b;
+    double result=add(a,b);
+    cout<<"the sum of"<<a<<"and"<<b<<"is"<<result;
+    cout<<endl;
+}
+========================================================================
+
+2. Define a function that returns the product of two numbers entered by user.
+#include<iostream>
+using  namespace std;
+double multiply(double a,double b){
+    int sum=a*b;
+    return sum;
+}
+int main()
+{
+    double a,b;
+    cout<<"enter the number of a:";
+    cin>>a;
+    cout<<"enter the number of b:";
+    cin>>b;
+    double result=multiply(a,b);
+    cout<<"the product of"<< a<<" and "<< b <<" is"<<result<<endl;
+}
+===========================================================
+
+3. Write a program to print the circumference and area of a circle of radius entered
+by user by defining your own function.
+
+
+#include<iostream>
+#include<cmath>
+using  namespace std;
+double cc( double radius)
+{
+	int sum=2 * 3.14*radius;
+	return sum;
+}
+double ca( double radius)
+{
+	int result= 3.14 *radius *radius;
+	return result;
+}
+int main()
+{
+	int radius;
+	cin>>radius;
+
+		double cricumference = cc(radius);
+		double area= ca(radius);
+		cout<<cricumference<<endl;
+		cout<<area<<endl;
+		
+	
+	}
+	return 0;
+	
+}
+====================================================================
+4 find minium and max
+
+#include<iostream>
+using namespace std;
+int findmax(int a,int b,int c)
+{
+	int maximum=a;
+	if(b>maximum){
+		maximum=b;
+	}
+	if(c>maximum){
+		maximum=c;
+	}
+	return maximum;
+	
+}
+int findmini(int a,int b,int c)
+{
+	int minimum=a;
+	if(b<minimum)
+	minimum=b;
+	{
+	a	if(c<minimum)
+		{
+			minimum=b;
+		}
+		return minimum;
+	}
+	
+int main()
+{
+    
+
+		int num1,num2,num3;
+		cout<<"enetr the numbr";
+		cin>>num1>>num2>>num3;
+		int maxnumber=findmax(num1,num2,num3);
+		int mininumber=findmini(num1,num2,num3);
+		cout<<maxnumber<<endl;
+		cout<<mininumber;
+		retrun 0;
+	
+	
+}
+
+==========================================
+5. even odd
+#include<iostream>
+using namespace std;
+bool iseven( int number){
+	int sum=number%2==0;
+	return sum;
+}
+int main()
+{
+	int number;
+	cin>>number;
+	if(iseven(number)){
+	    cout<<number<<"is even"<<endl;
+	}
+	else{
+	    cout<<number<<"not even";
+	}
+	return 0;
+}
+
+========================================
+6. vote eligibalety
+#include<iostream>
+using namespace std;
+bool isvaildforvote(int age)
+{
+	if(age>=18){
+		return true;
+	}
+	else{
+		return false;
+	}
+}
+int main()
+
+	{
+		int age;
+		cout<<"enetr the age";
+		cin>>age;
+		if(isvaildforvote(age))
+		{
+			cout<<"is vaild"<<endl;
+		}
+		else{
+			cout<<"not vaild";
+		}
+		return 0;
+	
+}
+
+================================================
+
+
