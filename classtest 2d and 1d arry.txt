@@ -1,0 +1,118 @@
+sum of arry
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int n;
+    cout<<"enter the size";
+    cin>>n;
+    int sum=0;
+    int arr[n];
+    for(int i=0;i<n;i++){
+        cin>>arr[i];
+        sum=sum+arr[i];
+    }
+    
+        cout<<sum;
+    }
+================================================
+max number of arry
+#include<bits/stdc++.h>
+using namespace std;
+float findmax(float arr[],int n){
+	float max=arr[0];
+	for(int i=0;i<n;i++){
+		if(arr[i]>max){
+			max=arr[i];
+		}
+	}
+	return max;
+}
+int main(){
+    int n=5;
+    cout<<"enter the size";
+//    cin>>n;
+    float arr[n]={1.5,5.3,7.6};
+    float maxvl=findmax(arr,n);
+    cout<<maxvl<<endl;
+    }
+    
+    }
+
+=================================
+reverse number arry
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int n;
+    cin>>n;
+    int arr[n];
+    for(int i=0;i<n;i++){
+        cin>>arr[i];
+    }
+    
+    
+    for( int j=n-1;j>=0;j--){
+        cout<<arr[j];
+    }
+}
+=========================#include<bits/stdc++.h>
+#include<bits/stdc++.h>
+using namespace std;
+using namespace std;
+int main(){
+    int n;
+    cin>>n;
+    int arr[n];
+    
+    
+    for(int i=0;i<n;i++){
+    cin>>arr[i];
+    }
+    for(int i=0;i<n;i++){
+        for(int j=i+1;j<n;j++){
+            if(arr[i]==arr[j]){
+                cout<<arr[j];
+                
+            }
+        }
+    }
+    
+}
+    
+
+  
+
+    
+    
+
+
+===================================================
+find same element in 1d array and store another arrry
+
+#include<bits/stdc++.h>
+using namespace std;
+using namespace std;
+int main(){
+    int n=5;
+    int m=4;
+    int count
+=0;
+    int arr1[5]={1,2,3,5,4};
+    int arr2[5]={4,5,8,2,1};
+    int arr3[count];
+    for(int i=0;i<n;i++){
+        for(int j=0;j<m;j++){
+            if(arr1[i]==arr2[j]){
+            arr3[count]=arr2[j];
+            count++;
+            }
+        }        
+    }
+    for(int i=0;i<count;i++){
+        cout<<arr3[i];
+    }
+}
+    
+
+================
