@@ -1,0 +1,230 @@
+basisc question of binary search   
+
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+   int n;
+   cout<<"enet the size of arry";
+   cin>>n;
+   int arr[n];
+   for(int i=0;i<n;i++){
+       cin>>arr[i];
+   }
+   int key;
+   cout<<"key vlaue";
+   cin>>key;
+   int s=0;
+   int e=n-1;
+   int ans=-1;
+   while(s<=e){
+        int m=(s+e)/2;
+       if(arr[m]==key){
+           ans=m;
+           break;
+       }
+       else if(arr[m]>key){
+           e=m-1;
+       }
+       else{
+           s=m+1;
+           
+       
+       }
+       
+   }
+   cout<<ans;
+}
+===============================================
+first occruance
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+   int n;
+   std::cout << "entr the value of  n" << std::endl;
+   std::cin >> n;
+   int arr[n];
+   for(int i=0;i<n;i++){
+   cin>>arr[i];
+   }
+   int key;
+   cout<<"enter the key num";
+   cin>>key;
+   int s=0;
+   int e=n-1;
+   int ans=-1;
+   while(s<=e){
+       int mid=(s+e)/2;
+       if(arr[mid]==key){
+           ans=mid;
+           e=mid-1;
+          
+       }
+       else if(arr[mid]>key){
+           e=mid-1;
+       }
+       else{
+           s=mid+1;
+       }
+   }
+   std::cout <<"last occ"<< ans << std::endl;
+   
+}
+=========================================================
+last occruance of binary
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+   int n;
+   std::cout << "entr the value of  n" << std::endl;
+   std::cin >> n;
+   int arr[n];
+   for(int i=0;i<n;i++){
+   cin>>arr[i];
+   }
+   int key;
+   cout<<"enter the key num";
+   cin>>key;
+   int s=0;
+   int e=n-1;
+   int ans=-1;
+   while(s<=e){
+       int mid=(s+e)/2;
+       if(arr[mid]==key){
+           ans=mid;
+           s=mid+1;
+          
+       }
+       else if(arr[mid]>key){
+           e=mid-1;
+       }
+       else{
+           s=mid+1;
+       }
+   }
+   std::cout <<"last occ"<< ans << std::endl;
+   
+}
+=====================================
+find mountain of peak
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+   int n;
+   std::cout << "entr the value of  n" << std::endl;
+   std::cin >> n;
+   int arr[n];
+   for(int i=0;i<n;i++){
+   cin>>arr[i];
+   }
+   int s=0;
+   int e=n-1;
+   while(s<e){
+       int mid=(s+e)/2;
+       if(arr[mid]<arr[mid+1]){
+           s=mid+1;
+       }
+       else{
+           e=mid;
+       }
+       std::cout <<s;
+   }
+}
+========================================= 
+find upper bond
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int n;
+    cout<<"enetr the value of n";
+    cin>>n;
+    int arr[n];
+    for(int i=0;i<n;i++){
+        cin>>arr[i];
+    }
+    int key;
+    cout<<"entr the value of key";
+    cin>>key;
+   int s=0;
+   int e=n-1;
+   int ans=n;
+   while(s<=e){
+       int mid=(s+e)/2;
+       if(arr[mid]>key){
+           
+           ans=mid;
+           e=mid-1;
+           
+       }
+
+       else{
+           s=mid+1;
+       }
+       
+   }
+   cout<<ans<<endl;
+}
+===============================
+find lower bond
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int n;
+    cout<<"enetr the value of n";
+    cin>>n;
+    int arr[n];
+    for(int i=0;i<n;i++){
+        cin>>arr[i];
+    }
+    int key;
+    cout<<"entr the value of key";
+    cin>>key;
+   int s=0;
+   int e=n-1;
+   int ans=n;
+   while(s<=e){
+       int mid=(s+e)/2;
+       if(arr[mid]>=key){
+           
+           ans=mid;
+           e=mid-1;
+           
+       }
+
+       else{
+           s=mid+1;
+       }
+       
+   }
+   cout<<ans<<endl;
+}
+=========================
+fide squre rroot
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int n;
+    cout<<"enetr the value of n";
+    cin>>n;
+   int s=0;
+   int e=n-1;
+   int ans=-1;
+   while(s<=e){
+       int mid=(s+e)/2;
+      if(mid*mid==n){
+          ans=mid;
+          break;
+      }
+      else if(mid*mid<n){
+          s=mid+1;
+      }
+      else{
+          e=mid-1;
+      }
+}
+   cout<<ans<<endl;
+   
+}
+=====================
+
+s

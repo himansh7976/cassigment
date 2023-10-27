@@ -1,0 +1,63 @@
+find maxmimum subarrary in slidid window
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int n=6;
+    int arr[n]={1,5,48,9,65,2};
+    int i=0;
+    int j=0;
+    int k=2;
+    int ans=0;
+    int sum=0;
+    while(j<n){
+        sum=sum+arr[j];
+        if(j-i+1<k){
+            j++;
+        }
+        else if(j-i+1==k){
+            sum=max(ans,sum);
+            sum=sum-arr[i];
+            i++;j++;
+        }
+    }
+    std::cout << ans << std::endl;
+}
+================================
+first negetive number in k size winndo
+#include<bits/stdc++.h>
+using namespace std; 
+
+int main(){
+   int n;
+   cin>>n;
+   std::vector<int>arr;
+   for(int i=0;i<n;i++){
+       int ele;
+       std::cout << "elemenrt" << std::endl;
+       cin>>ele;
+       arr.push_back(ele);
+   }
+   int i=0;
+   int j=0;
+   int k=2;
+   vector<int>ans;
+   std::queue<int>nq;
+   while(j<n){
+       if(arr[i]<0){
+           nq.push(arr[j]);
+       }
+       if(j-i+1<k){
+           j++;
+       }
+       else if(j-i+1==k){
+           ans.push_back(nq.front());
+           if(arr[i]==nq.front());
+           nq.pop();
+           i++;
+           j++;
+       }
+   }
+   for(auto it:ans){
+       cout<<it;
+   }
+}

@@ -1,0 +1,89 @@
+binary
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int n;
+    std::cout << "enrt the size"<< std::endl;
+    cin>>n;
+    int arr[n];
+    for(int i=0;i<n;i++){
+        cin>>arr[i];
+    }
+    int key;
+    cout<<"enetr the number";
+    cin>>key;
+    int s=0;
+    int e=n-1;
+    int ans=-1;
+    while(s<=e){
+        int mid=(s+e)/2;
+        if(arr[mid]==key){
+            ans=mid;
+            break;
+        }
+        else if(arr[mid]<key){
+            s=mid+1;
+        }
+        else{
+            e=mid-1;
+        }
+    }
+    std::cout << ans<< std::endl;
+    
+}
+===============================
+selaticon sort
+#include<bits/stdc++.h>
+using namespace std;
+using namespace std;
+int main(){
+   int n=6;
+   int arr[6]={12,45,23,51,19,8};
+   for(int i=0;i<n;i++){
+       for(int j=i+1;j<n;j++){
+           if(arr[j]<arr[i]){
+               int temp=arr[j];
+               arr[j]=arr[i];
+               arr[i]=temp;
+           }
+       }
+   }
+   for(auto it:arr){
+       cout<<it<<" ";
+   }
+    
+}
+=======================
+sum
+#include<bits/stdc++.h>
+using namespace std;
+using namespace std;
+int main(){
+   int n=6;
+   int sum=0;
+   int arr[6]={12,45,23,51,19,8};
+   for(int i=0;i<n;i++){
+       sum=sum+arr[i];
+   }
+   cout<<sum;
+    
+}
+================================
+minimum
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+   int n=6;
+   int arr[6]={44,55,2,7,9,25};
+   int mini=arr[0];
+   for(int i=0;i<n;i++){
+       if(arr[i]<mini){
+           mini=arr[i];
+       }
+       
+   }
+   cout<<mini;
+    
+}
+========================
+
